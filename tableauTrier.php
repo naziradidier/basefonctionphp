@@ -1,7 +1,7 @@
 $<?php
 
     $table = array(2,1,3,4,8,5,6,9,7,10);
-//    **************************************************************************
+
     function    limiterTableau($arr){
         $m=0;
         $empty =[];
@@ -12,7 +12,6 @@ $<?php
     }
     
     // limiterTableau($table);
-    // ********************************************************************
     function    affichierTableau($arr){
         for($p=0 ; $p < count($arr); $p++){
             echo $arr[$p];
