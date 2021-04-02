@@ -1,5 +1,6 @@
 <?php
     function atambatra(){
+//         tableau à afficher
         $table = array(2,3,4,8,5,1,6,9,7,10);
         function    limiterTableau($arr){
             $m=0;
